@@ -1,7 +1,6 @@
 rdkit
 pandas
 numpy
-os
 standardiser
 scikit-learn
 matplotlib
