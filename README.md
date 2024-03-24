@@ -22,6 +22,15 @@ python -m ipykernel install --user --name ersilia --display-name "ersilia"
 ```
 - Run the `.ipynb` notebooks in `\notebooks` directory.
 
+## Conclusion from the week 2 tasks
+##### Task 1
+- We notice that our model is biased towards non-hERG blockers, indicating that most of the compounds are not hERG blockers. This can be dependent on the number of hERG blockers present in reality and hence, our random dataset can be assumed to be a reflection of it.
+- We can conclude that there are two possible reasons why we have the above result. There is a possibility that our dataset ended up with majorly non-hERG blockers purely by chance. Other possibility is that most of the compounds in nature do not have the property of being a non-hERG blocker, hence explaining our result.
+
+##### Task 2
+- According to our dataset, every single molecule should be a hERG blocker.
+- However, we are not able to reproduce our dataset. There is a possibility that the model has not been trained correctly, explaining the result.
+
 ## Where to get more help:
 - Read Outreachy's contribution [tasks](https://ersilia.gitbook.io/ersilia-book/contributors/internships/outreachy-summer-2024)
 - Read Ersilia's [documentation](https://ersilia.gitbook.io/ersilia-book)
